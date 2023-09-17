@@ -9,7 +9,7 @@ export class UserAuthService {
 
   constructor(private http:HttpClient) { }
   // basic apiurl of the users data
-  apiurl = "http://localhost:3000/users";
+  apiurl = "https://login-stickies-backend.onrender.com/users";
   
 
   // on succesful login of the user to post the data into the database
